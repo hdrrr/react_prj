@@ -3,7 +3,8 @@ import MovieCard from './MovieCard';
 import './App.css';
 import SearchIcon from './search.svg';
 
-const API_URL = 'http://www.omdbapi.com?apikey=ae68d08a';
+const API_URL =
+  'http://www.omdbapi.com?apikey=' + process.env.REACT_APP_API_KEY;
 
 /* const movie1 = {
   Title: 'Amazing Spiderman',
